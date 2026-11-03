@@ -1,0 +1,20 @@
+{
+  "name": "wall-paints-ai-marketing-agent",
+  "version": "1.0.0",
+  "description": "WALL PAINTS AI Marketing Agent - Node.js backend + dashboard (Anthropic Claude)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.3.0",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "private": true
+}
